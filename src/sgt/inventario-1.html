@@ -1,0 +1,1483 @@
+<!DOCTYPE html>
+<!--
+* CoreUI - Free Bootstrap Admin Template
+* @version v3.0.0
+* @link https://coreui.io
+* Copyright (c) 2020 creativeLabs Łukasz Holeczek
+* Licensed under MIT (https://coreui.io/license)
+-->
+
+<html lang="en">
+  <head>
+    <base href="./../">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <meta name="description" content="CoreUI - Open Source Bootstrap Admin Template">
+    <meta name="author" content="Łukasz Holeczek">
+    <meta name="keyword" content="Bootstrap,Admin,Template,Open,Source,jQuery,CSS,HTML,RWD,Dashboard">
+    <title>CoreUI Free Bootstrap Admin Template</title>
+    <link rel="apple-touch-icon" sizes="57x57" href="assets/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="assets/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="assets/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="assets/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="assets/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="assets/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="assets/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="assets/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="assets/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="assets/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="assets/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="assets/favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <!-- Main styles for this application-->
+    <link href="css/style.css" rel="stylesheet">
+  </head>
+  <body class="c-app">
+    <div class="c-sidebar c-sidebar-dark c-sidebar-fixed c-sidebar-lg-show" id="sidebar">
+      <div class="c-sidebar-brand d-lg-down-none">
+        <svg class="c-sidebar-brand-full" width="118" height="46" alt="CoreUI Logo">
+          <use xlink:href="assets/brand/coreui.svg#full"></use>
+        </svg>
+        <svg class="c-sidebar-brand-minimized" width="46" height="46" alt="CoreUI Logo">
+          <use xlink:href="assets/brand/coreui.svg#signet"></use>
+        </svg>
+      </div>
+      <ul class="c-sidebar-nav">
+        <li class="c-sidebar-nav-item"><a class="c-sidebar-nav-link" href="index.html">
+            <svg class="c-sidebar-nav-icon">
+              <use xlink:href="node_modules/@coreui/icons/sprites/free.svg#cil-speedometer"></use>
+            </svg> Dashboard<span class="badge badge-info">NEW</span></a></li>
+        <li class="c-sidebar-nav-title">Theme</li>
+        <li class="c-sidebar-nav-item"><a class="c-sidebar-nav-link" href="colors.html">
+            <svg class="c-sidebar-nav-icon">
+              <use xlink:href="node_modules/@coreui/icons/sprites/free.svg#cil-drop1"></use>
+            </svg> Colors</a></li>
+        <li class="c-sidebar-nav-item"><a class="c-sidebar-nav-link" href="typography.html">
+            <svg class="c-sidebar-nav-icon">
+              <use xlink:href="node_modules/@coreui/icons/sprites/free.svg#cil-pencil"></use>
+            </svg> Typography</a></li>
+        <li class="c-sidebar-nav-title">Components</li>
+        <li class="c-sidebar-nav-item c-sidebar-nav-dropdown"><a class="c-sidebar-nav-link c-sidebar-nav-dropdown-toggle" href="#">
+            <svg class="c-sidebar-nav-icon">
+              <use xlink:href="node_modules/@coreui/icons/sprites/free.svg#cil-puzzle"></use>
+            </svg> Base</a>
+          <ul class="c-sidebar-nav-dropdown-items">
+            <li class="c-sidebar-nav-item"><a class="c-sidebar-nav-link" href="base/breadcrumb.html"><span class="c-sidebar-nav-icon"></span> Breadcrumb</a></li>
+            <li class="c-sidebar-nav-item"><a class="c-sidebar-nav-link" href="base/cards.html"><span class="c-sidebar-nav-icon"></span> Cards</a></li>
+            <li class="c-sidebar-nav-item"><a class="c-sidebar-nav-link" href="base/carousel.html"><span class="c-sidebar-nav-icon"></span> Carousel</a></li>
+            <li class="c-sidebar-nav-item"><a class="c-sidebar-nav-link" href="base/collapse.html"><span class="c-sidebar-nav-icon"></span> Collapse</a></li>
+            <li class="c-sidebar-nav-item"><a class="c-sidebar-nav-link" href="base/forms.html"><span class="c-sidebar-nav-icon"></span> Forms</a></li>
+            <li class="c-sidebar-nav-item"><a class="c-sidebar-nav-link" href="base/jumbotron.html"><span class="c-sidebar-nav-icon"></span> Jumbotron</a></li>
+            <li class="c-sidebar-nav-item"><a class="c-sidebar-nav-link" href="base/list-group.html"><span class="c-sidebar-nav-icon"></span> List group</a></li>
+            <li class="c-sidebar-nav-item"><a class="c-sidebar-nav-link" href="base/navs.html"><span class="c-sidebar-nav-icon"></span> Navs</a></li>
+            <li class="c-sidebar-nav-item"><a class="c-sidebar-nav-link" href="base/pagination.html"><span class="c-sidebar-nav-icon"></span> Pagination</a></li>
+            <li class="c-sidebar-nav-item"><a class="c-sidebar-nav-link" href="base/popovers.html"><span class="c-sidebar-nav-icon"></span> Popovers</a></li>
+            <li class="c-sidebar-nav-item"><a class="c-sidebar-nav-link" href="base/progress.html"><span class="c-sidebar-nav-icon"></span> Progress</a></li>
+            <li class="c-sidebar-nav-item"><a class="c-sidebar-nav-link" href="base/scrollspy.html"><span class="c-sidebar-nav-icon"></span> Scrollspy</a></li>
+            <li class="c-sidebar-nav-item"><a class="c-sidebar-nav-link" href="base/switches.html"><span class="c-sidebar-nav-icon"></span> Switches</a></li>
+            <li class="c-sidebar-nav-item"><a class="c-sidebar-nav-link" href="base/tables.html"><span class="c-sidebar-nav-icon"></span> Tables</a></li>
+            <li class="c-sidebar-nav-item"><a class="c-sidebar-nav-link" href="base/tabs.html"><span class="c-sidebar-nav-icon"></span> Tabs</a></li>
+            <li class="c-sidebar-nav-item"><a class="c-sidebar-nav-link" href="base/tooltips.html"><span class="c-sidebar-nav-icon"></span> Tooltips</a></li>
+          </ul>
+        </li>
+        <li class="c-sidebar-nav-item c-sidebar-nav-dropdown"><a class="c-sidebar-nav-link c-sidebar-nav-dropdown-toggle" href="#">
+            <svg class="c-sidebar-nav-icon">
+              <use xlink:href="node_modules/@coreui/icons/sprites/free.svg#cil-cursor"></use>
+            </svg> Buttons</a>
+          <ul class="c-sidebar-nav-dropdown-items">
+            <li class="c-sidebar-nav-item"><a class="c-sidebar-nav-link" href="buttons/buttons.html"><span class="c-sidebar-nav-icon"></span> Buttons</a></li>
+            <li class="c-sidebar-nav-item"><a class="c-sidebar-nav-link" href="buttons/button-group.html"><span class="c-sidebar-nav-icon"></span> Buttons Group</a></li>
+            <li class="c-sidebar-nav-item"><a class="c-sidebar-nav-link" href="buttons/dropdowns.html"><span class="c-sidebar-nav-icon"></span> Dropdowns</a></li>
+            <li class="c-sidebar-nav-item"><a class="c-sidebar-nav-link" href="buttons/brand-buttons.html"><span class="c-sidebar-nav-icon"></span> Brand Buttons</a></li>
+          </ul>
+        </li>
+        <li class="c-sidebar-nav-item"><a class="c-sidebar-nav-link" href="charts.html">
+            <svg class="c-sidebar-nav-icon">
+              <use xlink:href="node_modules/@coreui/icons/sprites/free.svg#cil-chart-pie"></use>
+            </svg> Charts</a></li>
+        <li class="c-sidebar-nav-dropdown"><a class="c-sidebar-nav-dropdown-toggle" href="#">
+            <svg class="c-sidebar-nav-icon">
+              <use xlink:href="node_modules/@coreui/icons/sprites/free.svg#cil-star"></use>
+            </svg> Icons</a>
+          <ul class="c-sidebar-nav-dropdown-items">
+            <li class="c-sidebar-nav-item"><a class="c-sidebar-nav-link" href="icons/coreui-icons-free.html"> CoreUI Icons<span class="badge badge-success">Free</span></a></li>
+            <li class="c-sidebar-nav-item"><a class="c-sidebar-nav-link" href="icons/coreui-icons-brand.html"> CoreUI Icons - Brand</a></li>
+            <li class="c-sidebar-nav-item"><a class="c-sidebar-nav-link" href="icons/coreui-icons-flag.html"> CoreUI Icons - Flag</a></li>
+          </ul>
+        </li>
+        <li class="c-sidebar-nav-item c-sidebar-nav-dropdown"><a class="c-sidebar-nav-link c-sidebar-nav-dropdown-toggle" href="#">
+            <svg class="c-sidebar-nav-icon">
+              <use xlink:href="node_modules/@coreui/icons/sprites/free.svg#cil-bell"></use>
+            </svg> Notifications</a>
+          <ul class="c-sidebar-nav-dropdown-items">
+            <li class="c-sidebar-nav-item"><a class="c-sidebar-nav-link" href="notifications/alerts.html"><span class="c-sidebar-nav-icon"></span> Alerts</a></li>
+            <li class="c-sidebar-nav-item"><a class="c-sidebar-nav-link" href="notifications/badge.html"><span class="c-sidebar-nav-icon"></span> Badge</a></li>
+            <li class="c-sidebar-nav-item"><a class="c-sidebar-nav-link" href="notifications/modals.html"><span class="c-sidebar-nav-icon"></span> Modals</a></li>
+          </ul>
+        </li>
+        <li class="c-sidebar-nav-item"><a class="c-sidebar-nav-link" href="widgets.html">
+            <svg class="c-sidebar-nav-icon">
+              <use xlink:href="node_modules/@coreui/icons/sprites/free.svg#cil-calculator"></use>
+            </svg> Widgets<span class="badge badge-info">NEW</span></a></li>
+        <li class="c-sidebar-nav-divider"></li>
+        <li class="c-sidebar-nav-title">Extras</li>
+        <li class="c-sidebar-nav-item c-sidebar-nav-dropdown"><a class="c-sidebar-nav-link c-sidebar-nav-dropdown-toggle" href="#">
+            <svg class="c-sidebar-nav-icon">
+              <use xlink:href="node_modules/@coreui/icons/sprites/free.svg#cil-star"></use>
+            </svg> Pages</a>
+          <ul class="c-sidebar-nav-dropdown-items">
+            <li class="c-sidebar-nav-item"><a class="c-sidebar-nav-link" href="login.html" target="_top">
+                <svg class="c-sidebar-nav-icon">
+                  <use xlink:href="node_modules/@coreui/icons/sprites/free.svg#cil-account-logout"></use>
+                </svg> Login</a></li>
+            <li class="c-sidebar-nav-item"><a class="c-sidebar-nav-link" href="register.html" target="_top">
+                <svg class="c-sidebar-nav-icon">
+                  <use xlink:href="node_modules/@coreui/icons/sprites/free.svg#cil-account-logout"></use>
+                </svg> Register</a></li>
+            <li class="c-sidebar-nav-item"><a class="c-sidebar-nav-link" href="404.html" target="_top">
+                <svg class="c-sidebar-nav-icon">
+                  <use xlink:href="node_modules/@coreui/icons/sprites/free.svg#cil-bug"></use>
+                </svg> Error 404</a></li>
+            <li class="c-sidebar-nav-item"><a class="c-sidebar-nav-link" href="500.html" target="_top">
+                <svg class="c-sidebar-nav-icon">
+                  <use xlink:href="node_modules/@coreui/icons/sprites/free.svg#cil-bug"></use>
+                </svg> Error 500</a></li>
+          </ul>
+        </li>
+        <li class="c-sidebar-nav-item mt-auto"><a class="c-sidebar-nav-link c-sidebar-nav-link-success" href="https://coreui.io" target="_top">
+            <svg class="c-sidebar-nav-icon">
+              <use xlink:href="node_modules/@coreui/icons/sprites/free.svg#cil-cloud-download"></use>
+            </svg> Download CoreUI</a></li>
+        <li class="c-sidebar-nav-item"><a class="c-sidebar-nav-link c-sidebar-nav-link-danger" href="https://coreui.io/pro/" target="_top">
+            <svg class="c-sidebar-nav-icon">
+              <use xlink:href="node_modules/@coreui/icons/sprites/free.svg#cil-layers"></use>
+            </svg> Try CoreUI<strong>PRO</strong></a></li>
+      </ul>
+      <button class="c-sidebar-minimizer c-class-toggler" type="button" data-target="_parent" data-class="c-sidebar-minimized"></button>
+    </div>
+    <div class="c-wrapper c-fixed-components">
+      <header class="c-header c-header-light c-header-fixed c-header-with-subheader">
+        <button class="c-header-toggler c-class-toggler d-lg-none mfe-auto" type="button" data-target="#sidebar" data-class="c-sidebar-show">
+          <svg class="c-icon c-icon-lg">
+            <use xlink:href="node_modules/@coreui/icons/sprites/free.svg#cil-menu"></use>
+          </svg>
+        </button><a class="c-header-brand d-lg-none" href="#">
+          <svg width="118" height="46" alt="CoreUI Logo">
+            <use xlink:href="assets/brand/coreui.svg#full"></use>
+          </svg></a>
+        <button class="c-header-toggler c-class-toggler mfs-3 d-md-down-none" type="button" data-target="#sidebar" data-class="c-sidebar-lg-show" responsive="true">
+          <svg class="c-icon c-icon-lg">
+            <use xlink:href="node_modules/@coreui/icons/sprites/free.svg#cil-menu"></use>
+          </svg>
+        </button>
+        <ul class="c-header-nav d-md-down-none">
+          <li class="c-header-nav-item px-3"><a class="c-header-nav-link" href="#">Dashboard</a></li>
+          <li class="c-header-nav-item px-3"><a class="c-header-nav-link" href="#">Users</a></li>
+          <li class="c-header-nav-item px-3"><a class="c-header-nav-link" href="#">Settings</a></li>
+        </ul>
+        <ul class="c-header-nav ml-auto mr-4">
+          <li class="c-header-nav-item d-md-down-none mx-2"><a class="c-header-nav-link" href="#">
+              <svg class="c-icon">
+                <use xlink:href="node_modules/@coreui/icons/sprites/free.svg#cil-bell"></use>
+              </svg></a></li>
+          <li class="c-header-nav-item d-md-down-none mx-2"><a class="c-header-nav-link" href="#">
+              <svg class="c-icon">
+                <use xlink:href="node_modules/@coreui/icons/sprites/free.svg#cil-list-rich"></use>
+              </svg></a></li>
+          <li class="c-header-nav-item d-md-down-none mx-2"><a class="c-header-nav-link" href="#">
+              <svg class="c-icon">
+                <use xlink:href="node_modules/@coreui/icons/sprites/free.svg#cil-envelope-open"></use>
+              </svg></a></li>
+          <li class="c-header-nav-item dropdown"><a class="c-header-nav-link" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+              <div class="c-avatar"><img class="c-avatar-img" src="assets/img/avatars/6.jpg" alt="user@email.com"></div>
+            </a>
+            <div class="dropdown-menu dropdown-menu-right pt-0">
+              <div class="dropdown-header bg-light py-2"><strong>Account</strong></div><a class="dropdown-item" href="#">
+                <svg class="c-icon mr-2">
+                  <use xlink:href="node_modules/@coreui/icons/sprites/free.svg#cil-bell"></use>
+                </svg> Updates<span class="badge badge-info ml-auto">42</span></a><a class="dropdown-item" href="#">
+                <svg class="c-icon mr-2">
+                  <use xlink:href="node_modules/@coreui/icons/sprites/free.svg#cil-envelope-open"></use>
+                </svg> Messages<span class="badge badge-success ml-auto">42</span></a><a class="dropdown-item" href="#">
+                <svg class="c-icon mr-2">
+                  <use xlink:href="node_modules/@coreui/icons/sprites/free.svg#cil-task"></use>
+                </svg> Tasks<span class="badge badge-danger ml-auto">42</span></a><a class="dropdown-item" href="#">
+                <svg class="c-icon mr-2">
+                  <use xlink:href="node_modules/@coreui/icons/sprites/free.svg#cil-comment-square"></use>
+                </svg> Comments<span class="badge badge-warning ml-auto">42</span></a>
+              <div class="dropdown-header bg-light py-2"><strong>Settings</strong></div><a class="dropdown-item" href="#">
+                <svg class="c-icon mr-2">
+                  <use xlink:href="node_modules/@coreui/icons/sprites/free.svg#cil-user"></use>
+                </svg> Profile</a><a class="dropdown-item" href="#">
+                <svg class="c-icon mr-2">
+                  <use xlink:href="node_modules/@coreui/icons/sprites/free.svg#cil-settings"></use>
+                </svg> Settings</a><a class="dropdown-item" href="#">
+                <svg class="c-icon mr-2">
+                  <use xlink:href="node_modules/@coreui/icons/sprites/free.svg#cil-credit-card"></use>
+                </svg> Payments<span class="badge badge-secondary ml-auto">42</span></a><a class="dropdown-item" href="#">
+                <svg class="c-icon mr-2">
+                  <use xlink:href="node_modules/@coreui/icons/sprites/free.svg#cil-file"></use>
+                </svg> Projects<span class="badge badge-primary ml-auto">42</span></a>
+              <div class="dropdown-divider"></div><a class="dropdown-item" href="#">
+                <svg class="c-icon mr-2">
+                  <use xlink:href="node_modules/@coreui/icons/sprites/free.svg#cil-lock-locked"></use>
+                </svg> Lock Account</a><a class="dropdown-item" href="#">
+                <svg class="c-icon mr-2">
+                  <use xlink:href="node_modules/@coreui/icons/sprites/free.svg#cil-account-logout"></use>
+                </svg> Logout</a>
+            </div>
+          </li>
+        </ul>
+        <div class="c-subheader px-3">
+          <!-- Breadcrumb-->
+          <ol class="breadcrumb border-0 m-0">
+            <li class="breadcrumb-item">Home</li>
+            <li class="breadcrumb-item"><a href="#">Admin</a></li>
+            <li class="breadcrumb-item active">Dashboard</li>
+            <!-- Breadcrumb Menu-->
+          </ol>
+        </div>
+      </header>
+      <div class="c-body">
+        <main class="c-main">
+          <div class="container-fluid">
+            <div class="fade-in">
+              <div class="row">
+                <div class="col-lg-9">
+                  <div class="card">
+                    <div class="card-header"><i class="fa fa-align-justify"></i> Simple Table</div>
+                    <div class="card-body">
+                      <table class="table table-responsive-sm">
+                        <thead>
+                            <tr>
+                                <th class="orderable receipt_number"><a href="?status=0&amp;sort=receipt_number">DR #</a></th>
+                                <th class="booking_customer">Booking# Cliente</th>
+                                <th class="orderable vin"><a href="?status=0&amp;sort=vin">VIN - S/N</a></th>
+                                <th class="orderable unit.make"><a href="?status=0&amp;sort=unit.make">Marca</a></th>
+                                <th class="orderable unit.model"><a href="?status=0&amp;sort=unit.model">Modelo</a></th>
+                                <th class="date_creation orderable"><a href="?status=0&amp;sort=date_creation">Días / IN / OUT</a></th>
+                                <th class="orderable status"><a href="?status=0&amp;sort=status">Estado/CEDI-Box</a></th>
+                                <th class="orderable type"><a href="?status=0&amp;sort=type">Tipo</a></th>
+                                <th class="mobility orderable"><a href="?status=0&amp;sort=mobility">Movilidad</a></th>
+                                <th class="custom_validation orderable"><a href="?status=0&amp;sort=custom_validation">Val.Aduana</a></th>
+                                <th class="photo">Foto</th>
+                                <th class="inspection">Insp.</th>
+                                <th class="options">Opciones</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="odd" style="background-color:#F3E2A9;">
+                                <td class="receipt_number"><a href="/customer/inventory/dock_receipt/detail/99839/" title="CONCESIONARIO: ABC AUTO SHIPPING
+                                                                CONSIGNATARIO MASTER: -
+                                                                CONSIGNATARIO FINAL: -">146015</a></td>
+                                <td class="booking_customer">
+                                    PA011224-3 (81)
+                                    <br>----
+                                    <br> ABC AUTO SHIPPING
+                                </td>
+                                <td class="vin">
+                                    1FMCU0GX1EUC46927
+                                </td>
+                                <td class="unit.make">FORD</td>
+                                <td class="unit.model">ESCAPE</td>
+                                <td class="date_creation">4
+                                    <br>13.ABR
+                                </td>
+                                <td class="status"><a title="Ver en mapa" class="location_map_opener" href="#position_map" data-remote="/line/show_location_map/159157/" target="_blank">
+                                                                   En Terminal
+                                                                </a>
+                                    <br>PV (-)
+                                </td>
+                                <td class="type">DR-IN</td>
+                                <td class="mobility">
+                                    SELF
+                                </td>
+                                <td class="custom_validation">
+                                    <a href="/customer/dock_receipt/customs_validation/99839/" onclick="return showAddAnotherPopup2(this,500,700);"><img src="assets/img/sgt/bt_estat_semafor_vermell.png" title="Sin número de guía"></a>
+                                </td>
+                                <td class="photo">
+                                    <div dr_id="99839" name="dr_photo"><img src="assets/img/sgt/thumbnail_dr.jpg" alt="thumbnail"></div>
+                                </td>
+                                <td class="inspection"><img title="Sin inspección de entrada" src="assets/img/sgt/bt_estat_semafor_vermell.png"></td>
+                                <td class="options">
+                                    <a title="Información check in" href="/customer/dock_receipt/check_in/info/99839/" onclick="return showAddAnotherPopup2(this,800,800);"><img title="Información check in" src="assets/img/sgt/bt_recepcio.png" alt="Información check in"></a>
+                                    <a title="Información Dock Receipt" onclick="return showAddAnotherPopup2(this,700,700);" href="/customer/dock_receipt/historic/99839/"><img src="assets/img/sgt/bt_informacio.png" alt="Información Dock Receipt"></a>
+                                    <a title="Gestión de documentos" href="/customer/dock_receipt/document/add/99839/" onclick="return showAddAnotherPopup2(this,800,800);"><img title="Gestión de documentos" src="assets/img/sgt/bt_document.png" alt="Gestión de documentos"></a>
+                                    <a class="new_tooltip" title="N/R"><img src="assets/img/sgt/bt_avis.png" alt=""></a>
+                                </td>
+                            </tr>
+                            <tr class="even" style="background-color:#F3E2A9;">
+                                <td class="receipt_number"><a href="/customer/inventory/dock_receipt/detail/99834/" title="CONCESIONARIO: ABC AUTO SHIPPING
+                                                                CONSIGNATARIO MASTER: -
+                                                                CONSIGNATARIO FINAL: -">146010</a></td>
+                                <td class="booking_customer">
+                                    PA011224-3 (81)
+                                    <br>----
+                                    <br> ABC AUTO SHIPPING
+                                </td>
+                                <td class="vin">
+                                    3N1AB7APXEL612500
+                                </td>
+                                <td class="unit.make">NISSAN</td>
+                                <td class="unit.model">SENTRA</td>
+                                <td class="date_creation">4
+                                    <br>13.ABR
+                                </td>
+                                <td class="status"><a title="Ver en mapa" class="location_map_opener" href="#position_map" data-remote="/line/show_location_map/159148/" target="_blank">
+                                                                   En Terminal
+                                                                </a>
+                                    <br>PV (-)
+                                </td>
+                                <td class="type">DR-IN</td>
+                                <td class="mobility">
+                                    SELF
+                                </td>
+                                <td class="custom_validation">
+                                    <a href="/customer/dock_receipt/customs_validation/99834/" onclick="return showAddAnotherPopup2(this,500,700);"><img src="assets/img/sgt/bt_estat_semafor_vermell.png" title="Sin número de guía"></a>
+                                </td>
+                                <td class="photo">
+                                    <div dr_id="99834" name="dr_photo"><img src="assets/img/sgt/thumbnail_dr.jpg" alt="thumbnail"></div>
+                                </td>
+                                <td class="inspection"><img title="Sin inspección de entrada" src="assets/img/sgt/bt_estat_semafor_vermell.png"></td>
+                                <td class="options">
+                                    <a title="Información check in" href="/customer/dock_receipt/check_in/info/99834/" onclick="return showAddAnotherPopup2(this,800,800);"><img title="Información check in" src="assets/img/sgt/bt_recepcio.png" alt="Información check in"></a>
+                                    <a title="Información Dock Receipt" onclick="return showAddAnotherPopup2(this,700,700);" href="/customer/dock_receipt/historic/99834/"><img src="assets/img/sgt/bt_informacio.png" alt="Información Dock Receipt"></a>
+                                    <a title="Gestión de documentos" href="/customer/dock_receipt/document/add/99834/" onclick="return showAddAnotherPopup2(this,800,800);"><img title="Gestión de documentos" src="assets/img/sgt/bt_document.png" alt="Gestión de documentos"></a>
+                                    <a class="new_tooltip" title="N/R"><img src="assets/img/sgt/bt_avis.png" alt=""></a>
+                                </td>
+                            </tr>
+                            <tr class="odd" style="background-color:#F3E2A9;">
+                                <td class="receipt_number"><a href="/customer/inventory/dock_receipt/detail/99817/" title="CONCESIONARIO: ABC AUTO SHIPPING
+                                                                CONSIGNATARIO MASTER: -
+                                                                CONSIGNATARIO FINAL: -">145993</a></td>
+                                <td class="booking_customer">
+                                    PA011224-2 (81)
+                                    <br>----
+                                    <br> ABC AUTO SHIPPING
+                                </td>
+                                <td class="vin">
+                                    1C4NJPBA0ED844864
+                                </td>
+                                <td class="unit.make">JEEP</td>
+                                <td class="unit.model">PATRIOT</td>
+                                <td class="date_creation">4
+                                    <br>13.ABR
+                                </td>
+                                <td class="status"><a title="Ver en mapa" class="location_map_opener" href="#position_map" data-remote="/line/show_location_map/158830/" target="_blank">
+                                                                   En Terminal
+                                                                </a>
+                                    <br>PV (-)
+                                </td>
+                                <td class="type">DR-IN</td>
+                                <td class="mobility">
+                                    SELF
+                                </td>
+                                <td class="custom_validation">
+                                    <a href="/customer/dock_receipt/customs_validation/99817/" onclick="return showAddAnotherPopup2(this,500,700);"><img src="assets/img/sgt/bt_estat_semafor_vermell.png" title="Sin número de guía"></a>
+                                </td>
+                                <td class="photo">
+                                    <div dr_id="99817" name="dr_photo"><img src="assets/img/sgt/thumbnail_dr.jpg" alt="thumbnail"></div>
+                                </td>
+                                <td class="inspection"><img title="Sin inspección de entrada" src="assets/img/sgt/bt_estat_semafor_vermell.png"></td>
+                                <td class="options">
+                                    <a title="Información check in" href="/customer/dock_receipt/check_in/info/99817/" onclick="return showAddAnotherPopup2(this,800,800);"><img title="Información check in" src="assets/img/sgt/bt_recepcio.png" alt="Información check in"></a>
+                                    <a title="Información Dock Receipt" onclick="return showAddAnotherPopup2(this,700,700);" href="/customer/dock_receipt/historic/99817/"><img src="assets/img/sgt/bt_informacio.png" alt="Información Dock Receipt"></a>
+                                    <a title="Gestión de documentos" href="/customer/dock_receipt/document/add/99817/" onclick="return showAddAnotherPopup2(this,800,800);"><img title="Gestión de documentos" src="assets/img/sgt/bt_document.png" alt="Gestión de documentos"></a>
+                                </td>
+                            </tr>
+                            <tr class="even" style="background-color:#F3E2A9;">
+                                <td class="receipt_number"><a href="/customer/inventory/dock_receipt/detail/99815/" title="CONCESIONARIO: ABC AUTO SHIPPING
+                                                                CONSIGNATARIO MASTER: -
+                                                                CONSIGNATARIO FINAL: -">145991</a></td>
+                                <td class="booking_customer">
+                                    PA011224-2 (81)
+                                    <br>----
+                                    <br> ABC AUTO SHIPPING
+                                </td>
+                                <td class="vin">
+                                    2T2BZMCA8HC081563
+                                </td>
+                                <td class="unit.make">LEXUS</td>
+                                <td class="unit.model">RX 350</td>
+                                <td class="date_creation">4
+                                    <br>13.ABR
+                                </td>
+                                <td class="status"><a title="Ver en mapa" class="location_map_opener" href="#position_map" data-remote="/line/show_location_map/158622/" target="_blank">
+                                                                   En Terminal
+                                                                </a>
+                                    <br>PV (-)
+                                </td>
+                                <td class="type">DR-IN</td>
+                                <td class="mobility">
+                                    SELF
+                                </td>
+                                <td class="custom_validation">
+                                    <a href="/customer/dock_receipt/customs_validation/99815/" onclick="return showAddAnotherPopup2(this,500,700);"><img src="assets/img/sgt/bt_estat_semafor_vermell.png" title="Sin número de guía"></a>
+                                </td>
+                                <td class="photo">
+                                    <div dr_id="99815" name="dr_photo"><img src="assets/img/sgt/thumbnail_dr.jpg" alt="thumbnail"></div>
+                                </td>
+                                <td class="inspection"><img title="Sin inspección de entrada" src="assets/img/sgt/bt_estat_semafor_vermell.png"></td>
+                                <td class="options">
+                                    <a title="Información check in" href="/customer/dock_receipt/check_in/info/99815/" onclick="return showAddAnotherPopup2(this,800,800);"><img title="Información check in" src="assets/img/sgt/bt_recepcio.png" alt="Información check in"></a>
+                                    <a title="Información Dock Receipt" onclick="return showAddAnotherPopup2(this,700,700);" href="/customer/dock_receipt/historic/99815/"><img src="assets/img/sgt/bt_informacio.png" alt="Información Dock Receipt"></a>
+                                    <a title="Gestión de documentos" href="/customer/dock_receipt/document/add/99815/" onclick="return showAddAnotherPopup2(this,800,800);"><img title="Gestión de documentos" src="assets/img/sgt/bt_document.png" alt="Gestión de documentos"></a>
+                                </td>
+                            </tr>
+                            <tr class="odd" style="background-color:#F3E2A9;">
+                                <td class="receipt_number"><a href="/customer/inventory/dock_receipt/detail/99798/" title="CONCESIONARIO: ABC AUTO SHIPPING
+                                                                CONSIGNATARIO MASTER: -
+                                                                CONSIGNATARIO FINAL: -">145273</a></td>
+                                <td class="booking_customer">
+                                    PA011224-3 (81)
+                                    <br>----
+                                    <br> ABC AUTO SHIPPING
+                                </td>
+                                <td class="vin">
+                                    5TFNX4CN8EX040664
+                                </td>
+                                <td class="unit.make">TOYOTA</td>
+                                <td class="unit.model">TACOMA</td>
+                                <td class="date_creation">8
+                                    <br>09.ABR
+                                </td>
+                                <td class="status"><a title="Ver en mapa" class="location_map_opener" href="#position_map" data-remote="/line/show_location_map/157659/" target="_blank">
+                                                                   En Terminal
+                                                                </a>
+                                    <br>PV (-)
+                                </td>
+                                <td class="type">DR-IN</td>
+                                <td class="mobility">
+                                    SELF
+                                </td>
+                                <td class="custom_validation">
+                                    <a href="/customer/dock_receipt/customs_validation/99798/" onclick="return showAddAnotherPopup2(this,500,700);"><img src="assets/img/sgt/bt_estat_semafor_vermell.png" title="Sin número de guía"></a>
+                                </td>
+                                <td class="photo">
+                                    <div dr_id="99798" name="dr_photo"><img src="assets/img/sgt/thumbnail_dr.jpg" alt="thumbnail"></div>
+                                </td>
+                                <td class="inspection"><img title="Sin inspección de entrada" src="assets/img/sgt/bt_estat_semafor_vermell.png"></td>
+                                <td class="options">
+                                    <a title="Información check in" href="/customer/dock_receipt/check_in/info/99798/" onclick="return showAddAnotherPopup2(this,800,800);"><img title="Información check in" src="assets/img/sgt/bt_recepcio.png" alt="Información check in"></a>
+                                    <a title="Información Dock Receipt" onclick="return showAddAnotherPopup2(this,700,700);" href="/customer/dock_receipt/historic/99798/"><img src="assets/img/sgt/bt_informacio.png" alt="Información Dock Receipt"></a>
+                                    <a title="Gestión de documentos" href="/customer/dock_receipt/document/add/99798/" onclick="return showAddAnotherPopup2(this,800,800);"><img title="Gestión de documentos" src="assets/img/sgt/bt_document.png" alt="Gestión de documentos"></a>
+                                    <a class="new_tooltip" title="N/R"><img src="assets/img/sgt/bt_avis.png" alt=""></a>
+                                </td>
+                            </tr>
+                            <tr class="even" style="background-color:#F3E2A9;">
+                                <td class="receipt_number"><a href="/customer/inventory/dock_receipt/detail/99773/" title="CONCESIONARIO: ABC AUTO SHIPPING
+                                                                CONSIGNATARIO MASTER: -
+                                                                CONSIGNATARIO FINAL: -">145248</a></td>
+                                <td class="booking_customer">
+                                    PA011224-1 (81)
+                                    <br>----
+                                    <br> ABC AUTO SHIPPING
+                                </td>
+                                <td class="vin">
+                                    1HGCR2F36FA058568
+                                </td>
+                                <td class="unit.make">HONDA</td>
+                                <td class="unit.model">ACCORD</td>
+                                <td class="date_creation">9
+                                    <br>08.ABR
+                                </td>
+                                <td class="status"><a title="Ver en mapa" class="location_map_opener" href="#position_map" data-remote="/line/show_location_map/157621/" target="_blank">
+                                                                   En Terminal
+                                                                </a>
+                                    <br>PV (-)
+                                </td>
+                                <td class="type">DR-IN</td>
+                                <td class="mobility">
+                                    SELF
+                                </td>
+                                <td class="custom_validation">
+                                    <a href="/customer/dock_receipt/customs_validation/99773/" onclick="return showAddAnotherPopup2(this,500,700);"><img src="assets/img/sgt/bt_estat_semafor_vermell.png" title="Sin número de guía"></a>
+                                </td>
+                                <td class="photo">
+                                    <div dr_id="99773" name="dr_photo"><img src="assets/img/sgt/thumbnail_dr.jpg" alt="thumbnail"></div>
+                                </td>
+                                <td class="inspection"><img title="Sin inspección de entrada" src="assets/img/sgt/bt_estat_semafor_vermell.png"></td>
+                                <td class="options">
+                                    <a title="Información check in" href="/customer/dock_receipt/check_in/info/99773/" onclick="return showAddAnotherPopup2(this,800,800);"><img title="Información check in" src="assets/img/sgt/bt_recepcio.png" alt="Información check in"></a>
+                                    <a title="Información Dock Receipt" onclick="return showAddAnotherPopup2(this,700,700);" href="/customer/dock_receipt/historic/99773/"><img src="assets/img/sgt/bt_informacio.png" alt="Información Dock Receipt"></a>
+                                    <a title="Gestión de documentos" href="/customer/dock_receipt/document/add/99773/" onclick="return showAddAnotherPopup2(this,800,800);"><img title="Gestión de documentos" src="assets/img/sgt/bt_document.png" alt="Gestión de documentos"></a>
+                                </td>
+                            </tr>
+                            <tr class="odd" style="background-color:#F3E2A9;">
+                                <td class="receipt_number"><a href="/customer/inventory/dock_receipt/detail/99708/" title="CONCESIONARIO: ABC AUTO SHIPPING
+                                                                CONSIGNATARIO MASTER: -
+                                                                CONSIGNATARIO FINAL: -">145180</a></td>
+                                <td class="booking_customer">
+                                    PA011224-1 (81)
+                                    <br>----
+                                    <br> ABC AUTO SHIPPING
+                                </td>
+                                <td class="vin">
+                                    5YFBURHEXEP097626
+                                </td>
+                                <td class="unit.make">TOYOTA</td>
+                                <td class="unit.model">COROLLA</td>
+                                <td class="date_creation">11
+                                    <br>06.ABR
+                                </td>
+                                <td class="status"><a title="Ver en mapa" class="location_map_opener" href="#position_map" data-remote="/line/show_location_map/157527/" target="_blank">
+                                                                   En Terminal
+                                                                </a>
+                                    <br>PV (-)
+                                </td>
+                                <td class="type">DR-IN</td>
+                                <td class="mobility">
+                                    SELF
+                                </td>
+                                <td class="custom_validation">
+                                    <a href="/customer/dock_receipt/customs_validation/99708/" onclick="return showAddAnotherPopup2(this,500,700);"><img src="assets/img/sgt/bt_estat_semafor_vermell.png" title="Sin número de guía"></a>
+                                </td>
+                                <td class="photo">
+                                    <div dr_id="99708" name="dr_photo"><img src="assets/img/sgt/thumbnail_dr.jpg" alt="thumbnail"></div>
+                                </td>
+                                <td class="inspection"><img title="Sin inspección de entrada" src="assets/img/sgt/bt_estat_semafor_vermell.png"></td>
+                                <td class="options">
+                                    <a title="Información check in" href="/customer/dock_receipt/check_in/info/99708/" onclick="return showAddAnotherPopup2(this,800,800);"><img title="Información check in" src="assets/img/sgt/bt_recepcio.png" alt="Información check in"></a>
+                                    <a title="Información Dock Receipt" onclick="return showAddAnotherPopup2(this,700,700);" href="/customer/dock_receipt/historic/99708/"><img src="assets/img/sgt/bt_informacio.png" alt="Información Dock Receipt"></a>
+                                    <a title="Gestión de documentos" href="/customer/dock_receipt/document/add/99708/" onclick="return showAddAnotherPopup2(this,800,800);"><img title="Gestión de documentos" src="assets/img/sgt/bt_document.png" alt="Gestión de documentos"></a>
+                                    <a class="new_tooltip" title="J/S"><img src="assets/img/sgt/bt_avis.png" alt=""></a>
+                                </td>
+                            </tr>
+                            <tr class="even" style="background-color:#F3E2A9;">
+                                <td class="receipt_number"><a href="/customer/inventory/dock_receipt/detail/99691/" title="CONCESIONARIO: ABC AUTO SHIPPING
+                                                                CONSIGNATARIO MASTER: -
+                                                                CONSIGNATARIO FINAL: -">145163</a></td>
+                                <td class="booking_customer">
+                                    PA011224-3 (81)
+                                    <br>----
+                                    <br> ABC AUTO SHIPPING
+                                </td>
+                                <td class="vin">
+                                    1FMCU0GX7FUA92483
+                                </td>
+                                <td class="unit.make">FORD</td>
+                                <td class="unit.model">ESCAPE</td>
+                                <td class="date_creation">14
+                                    <br>03.ABR
+                                </td>
+                                <td class="status"><a title="Ver en mapa" class="location_map_opener" href="#position_map" data-remote="/line/show_location_map/157407/" target="_blank">
+                                                                   En Terminal
+                                                                </a>
+                                    <br>PV (-)
+                                </td>
+                                <td class="type">DR-IN</td>
+                                <td class="mobility">
+                                    SELF
+                                </td>
+                                <td class="custom_validation">
+                                    <a href="/customer/dock_receipt/customs_validation/99691/" onclick="return showAddAnotherPopup2(this,500,700);"><img src="assets/img/sgt/bt_estat_semafor_vermell.png" title="Sin número de guía"></a>
+                                </td>
+                                <td class="photo">
+                                    <div dr_id="99691" name="dr_photo"><img src="assets/img/sgt/thumbnail_dr.jpg" alt="thumbnail"></div>
+                                </td>
+                                <td class="inspection"><img title="Sin inspección de entrada" src="assets/img/sgt/bt_estat_semafor_vermell.png"></td>
+                                <td class="options">
+                                    <a title="Información check in" href="/customer/dock_receipt/check_in/info/99691/" onclick="return showAddAnotherPopup2(this,800,800);"><img title="Información check in" src="assets/img/sgt/bt_recepcio.png" alt="Información check in"></a>
+                                    <a title="Información Dock Receipt" onclick="return showAddAnotherPopup2(this,700,700);" href="/customer/dock_receipt/historic/99691/"><img src="assets/img/sgt/bt_informacio.png" alt="Información Dock Receipt"></a>
+                                    <a title="Gestión de documentos" href="/customer/dock_receipt/document/add/99691/" onclick="return showAddAnotherPopup2(this,800,800);"><img title="Gestión de documentos" src="assets/img/sgt/bt_document.png" alt="Gestión de documentos"></a>
+                                    <a class="new_tooltip" title="N/R"><img src="assets/img/sgt/bt_avis.png" alt=""></a>
+                                </td>
+                            </tr>
+                            <tr class="odd" style="background-color:#F3E2A9;">
+                                <td class="receipt_number"><a href="/customer/inventory/dock_receipt/detail/98943/" title="CONCESIONARIO: ABC AUTO SHIPPING
+                                                                CONSIGNATARIO MASTER: -
+                                                                CONSIGNATARIO FINAL: -">144415</a></td>
+                                <td class="booking_customer">
+                                    PA011224-2 (81)
+                                    <br>----
+                                    <br> ABC AUTO SHIPPING
+                                </td>
+                                <td class="vin">
+                                    1FMCU0F7XHUC27606
+                                </td>
+                                <td class="unit.make">FORD</td>
+                                <td class="unit.model">ESCAPE</td>
+                                <td class="date_creation">16
+                                    <br>01.ABR
+                                </td>
+                                <td class="status"><a title="Ver en mapa" class="location_map_opener" href="#position_map" data-remote="/line/show_location_map/156888/" target="_blank">
+                                                                   En Terminal
+                                                                </a>
+                                    <br>PV (-)
+                                </td>
+                                <td class="type">DR-IN</td>
+                                <td class="mobility">
+                                    SELF
+                                </td>
+                                <td class="custom_validation">
+                                    <a href="/customer/dock_receipt/customs_validation/98943/" onclick="return showAddAnotherPopup2(this,500,700);"><img src="assets/img/sgt/bt_estat_semafor_vermell.png" title="Sin número de guía"></a>
+                                </td>
+                                <td class="photo">
+                                    <div dr_id="98943" name="dr_photo"><img src="assets/img/sgt/thumbnail_dr.jpg" alt="thumbnail"></div>
+                                </td>
+                                <td class="inspection"><img title="Sin inspección de entrada" src="assets/img/sgt/bt_estat_semafor_vermell.png"></td>
+                                <td class="options">
+                                    <a title="Información check in" href="/customer/dock_receipt/check_in/info/98943/" onclick="return showAddAnotherPopup2(this,800,800);"><img title="Información check in" src="assets/img/sgt/bt_recepcio.png" alt="Información check in"></a>
+                                    <a title="Información Dock Receipt" onclick="return showAddAnotherPopup2(this,700,700);" href="/customer/dock_receipt/historic/98943/"><img src="assets/img/sgt/bt_informacio.png" alt="Información Dock Receipt"></a>
+                                    <a title="Gestión de documentos" href="/customer/dock_receipt/document/add/98943/" onclick="return showAddAnotherPopup2(this,800,800);"><img title="Gestión de documentos" src="assets/img/sgt/bt_document.png" alt="Gestión de documentos"></a>
+                                </td>
+                            </tr>
+                            <tr class="even" style="background-color:#F3E2A9;">
+                                <td class="receipt_number"><a href="/customer/inventory/dock_receipt/detail/98915/" title="CONCESIONARIO: ABC AUTO SHIPPING
+                                                                CONSIGNATARIO MASTER: -
+                                                                CONSIGNATARIO FINAL: -">143817</a></td>
+                                <td class="booking_customer">
+                                    PA011224-2 (81)
+                                    <br>----
+                                    <br> ABC AUTO SHIPPING
+                                </td>
+                                <td class="vin">
+                                    1C4RJFAG3EC466224
+                                </td>
+                                <td class="unit.make">JEEP</td>
+                                <td class="unit.model">GRAND CHEROKEE</td>
+                                <td class="date_creation">18
+                                    <br>30.MAR
+                                </td>
+                                <td class="status"><a title="Ver en mapa" class="location_map_opener" href="#position_map" data-remote="/line/show_location_map/155880/" target="_blank">
+                                                                   En Terminal
+                                                                </a>
+                                    <br>PV (-)
+                                </td>
+                                <td class="type">DR-IN</td>
+                                <td class="mobility">
+                                    SELF
+                                </td>
+                                <td class="custom_validation">
+                                    <a href="/customer/dock_receipt/customs_validation/98915/" onclick="return showAddAnotherPopup2(this,500,700);"><img src="assets/img/sgt/bt_estat_semafor_vermell.png" title="Sin número de guía"></a>
+                                </td>
+                                <td class="photo">
+                                    <div dr_id="98915" name="dr_photo"><img src="assets/img/sgt/thumbnail_dr.jpg" alt="thumbnail"></div>
+                                </td>
+                                <td class="inspection"><img title="Sin inspección de entrada" src="assets/img/sgt/bt_estat_semafor_vermell.png"></td>
+                                <td class="options">
+                                    <a title="Información check in" href="/customer/dock_receipt/check_in/info/98915/" onclick="return showAddAnotherPopup2(this,800,800);"><img title="Información check in" src="assets/img/sgt/bt_recepcio.png" alt="Información check in"></a>
+                                    <a title="Información Dock Receipt" onclick="return showAddAnotherPopup2(this,700,700);" href="/customer/dock_receipt/historic/98915/"><img src="assets/img/sgt/bt_informacio.png" alt="Información Dock Receipt"></a>
+                                    <a title="Gestión de documentos" href="/customer/dock_receipt/document/add/98915/" onclick="return showAddAnotherPopup2(this,800,800);"><img title="Gestión de documentos" src="assets/img/sgt/bt_document.png" alt="Gestión de documentos"></a>
+                                </td>
+                            </tr>
+                            <tr class="odd" style="background-color:#F3E2A9;">
+                                <td class="receipt_number"><a href="/customer/inventory/dock_receipt/detail/98861/" title="CONCESIONARIO: ABC AUTO SHIPPING
+                                                                CONSIGNATARIO MASTER: -
+                                                                CONSIGNATARIO FINAL: -">143763</a></td>
+                                <td class="booking_customer">
+                                    PA011224-3 (81)
+                                    <br>----
+                                    <br> ABC AUTO SHIPPING
+                                </td>
+                                <td class="vin">
+                                    5XYKU4A75EG430351
+                                </td>
+                                <td class="unit.make">KIA</td>
+                                <td class="unit.model">SORENTO</td>
+                                <td class="date_creation">21
+                                    <br>27.MAR
+                                </td>
+                                <td class="status"><a title="Ver en mapa" class="location_map_opener" href="#position_map" data-remote="/line/show_location_map/155365/" target="_blank">
+                                                                   En Terminal
+                                                                </a>
+                                    <br>PV (-)
+                                </td>
+                                <td class="type">DR-IN</td>
+                                <td class="mobility">
+                                    SELF
+                                </td>
+                                <td class="custom_validation">
+                                    <a href="/customer/dock_receipt/customs_validation/98861/" onclick="return showAddAnotherPopup2(this,500,700);"><img src="assets/img/sgt/bt_estat_semafor_vermell.png" title="Sin número de guía"></a>
+                                </td>
+                                <td class="photo">
+                                    <div dr_id="98861" name="dr_photo"><img src="assets/img/sgt/thumbnail_dr.jpg" alt="thumbnail"></div>
+                                </td>
+                                <td class="inspection"><img title="Sin inspección de entrada" src="assets/img/sgt/bt_estat_semafor_vermell.png"></td>
+                                <td class="options">
+                                    <a title="Información check in" href="/customer/dock_receipt/check_in/info/98861/" onclick="return showAddAnotherPopup2(this,800,800);"><img title="Información check in" src="assets/img/sgt/bt_recepcio.png" alt="Información check in"></a>
+                                    <a title="Información Dock Receipt" onclick="return showAddAnotherPopup2(this,700,700);" href="/customer/dock_receipt/historic/98861/"><img src="assets/img/sgt/bt_informacio.png" alt="Información Dock Receipt"></a>
+                                    <a title="Gestión de documentos" href="/customer/dock_receipt/document/add/98861/" onclick="return showAddAnotherPopup2(this,800,800);"><img title="Gestión de documentos" src="assets/img/sgt/bt_document.png" alt="Gestión de documentos"></a>
+                                    <a class="new_tooltip" title="N/R"><img src="assets/img/sgt/bt_avis.png" alt=""></a>
+                                </td>
+                            </tr>
+                            <tr class="even" style="background-color:#F3E2A9;">
+                                <td class="receipt_number"><a href="/customer/inventory/dock_receipt/detail/98273/" title="CONCESIONARIO: ABC AUTO SHIPPING
+                                                                CONSIGNATARIO MASTER: -
+                                                                CONSIGNATARIO FINAL: -">143175</a></td>
+                                <td class="booking_customer">
+                                    PA011224-1 (81)
+                                    <br>----
+                                    <br> ABC AUTO SHIPPING
+                                </td>
+                                <td class="vin">
+                                    JTHBF1D20E5022601
+                                </td>
+                                <td class="unit.make">LEXUS</td>
+                                <td class="unit.model">IS 250</td>
+                                <td class="date_creation">22
+                                    <br>26.MAR
+                                </td>
+                                <td class="status"><a title="Ver en mapa" class="location_map_opener" href="#position_map" data-remote="/line/show_location_map/155258/" target="_blank">
+                                                                   En Terminal
+                                                                </a>
+                                    <br>PV (-)
+                                </td>
+                                <td class="type">DR-IN</td>
+                                <td class="mobility">
+                                    SELF
+                                </td>
+                                <td class="custom_validation">
+                                    <a href="/customer/dock_receipt/customs_validation/98273/" onclick="return showAddAnotherPopup2(this,500,700);"><img src="assets/img/sgt/bt_estat_semafor_vermell.png" title="Sin número de guía"></a>
+                                </td>
+                                <td class="photo">
+                                    <div dr_id="98273" name="dr_photo"><img src="assets/img/sgt/thumbnail_dr.jpg" alt="thumbnail"></div>
+                                </td>
+                                <td class="inspection"><img title="Sin inspección de entrada" src="assets/img/sgt/bt_estat_semafor_vermell.png"></td>
+                                <td class="options">
+                                    <a title="Información check in" href="/customer/dock_receipt/check_in/info/98273/" onclick="return showAddAnotherPopup2(this,800,800);"><img title="Información check in" src="assets/img/sgt/bt_recepcio.png" alt="Información check in"></a>
+                                    <a title="Información Dock Receipt" onclick="return showAddAnotherPopup2(this,700,700);" href="/customer/dock_receipt/historic/98273/"><img src="assets/img/sgt/bt_informacio.png" alt="Información Dock Receipt"></a>
+                                    <a title="Gestión de documentos" href="/customer/dock_receipt/document/add/98273/" onclick="return showAddAnotherPopup2(this,800,800);"><img title="Gestión de documentos" src="assets/img/sgt/bt_document.png" alt="Gestión de documentos"></a>
+                                </td>
+                            </tr>
+                            <tr class="odd" style="background-color:#F3E2A9;">
+                                <td class="receipt_number"><a href="/customer/inventory/dock_receipt/detail/98255/" title="CONCESIONARIO: ABC AUTO SHIPPING
+                                                                CONSIGNATARIO MASTER: -
+                                                                CONSIGNATARIO FINAL: -">143157</a></td>
+                                <td class="booking_customer">
+                                    PA011224-2 (81)
+                                    <br>----
+                                    <br> ABC AUTO SHIPPING
+                                </td>
+                                <td class="vin">
+                                    NM0LS7E74F1183537
+                                </td>
+                                <td class="unit.make">FORD</td>
+                                <td class="unit.model">TRANSIT CONNECT</td>
+                                <td class="date_creation">22
+                                    <br>26.MAR
+                                </td>
+                                <td class="status"><a title="Ver en mapa" class="location_map_opener" href="#position_map" data-remote="/line/show_location_map/155232/" target="_blank">
+                                                                   En Terminal
+                                                                </a>
+                                    <br>PV (-)
+                                </td>
+                                <td class="type">DR-IN</td>
+                                <td class="mobility">
+                                    SELF
+                                </td>
+                                <td class="custom_validation">
+                                    <a href="/customer/dock_receipt/customs_validation/98255/" onclick="return showAddAnotherPopup2(this,500,700);"><img src="assets/img/sgt/bt_estat_semafor_vermell.png" title="Sin número de guía"></a>
+                                </td>
+                                <td class="photo">
+                                    <div dr_id="98255" name="dr_photo"><img src="assets/img/sgt/thumbnail_dr.jpg" alt="thumbnail"></div>
+                                </td>
+                                <td class="inspection"><img title="Sin inspección de entrada" src="assets/img/sgt/bt_estat_semafor_vermell.png"></td>
+                                <td class="options">
+                                    <a title="Información check in" href="/customer/dock_receipt/check_in/info/98255/" onclick="return showAddAnotherPopup2(this,800,800);"><img title="Información check in" src="assets/img/sgt/bt_recepcio.png" alt="Información check in"></a>
+                                    <a title="Información Dock Receipt" onclick="return showAddAnotherPopup2(this,700,700);" href="/customer/dock_receipt/historic/98255/"><img src="assets/img/sgt/bt_informacio.png" alt="Información Dock Receipt"></a>
+                                    <a title="Gestión de documentos" href="/customer/dock_receipt/document/add/98255/" onclick="return showAddAnotherPopup2(this,800,800);"><img title="Gestión de documentos" src="assets/img/sgt/bt_document.png" alt="Gestión de documentos"></a>
+                                    <a class="new_tooltip" title="JUMP/S"><img src="assets/img/sgt/bt_avis.png" alt=""></a>
+                                </td>
+                            </tr>
+                            <tr class="even" style="background-color:#F3E2A9;">
+                                <td class="receipt_number"><a href="/customer/inventory/dock_receipt/detail/98242/" title="CONCESIONARIO: ABC AUTO SHIPPING
+                                                                CONSIGNATARIO MASTER: -
+                                                                CONSIGNATARIO FINAL: -">143144</a>
+                                    <br><img src="assets/img/sgt/bt_enviado.png" title="Dock receipt sent (1 times)"></td>
+                                <td class="booking_customer">
+                                    PA011224-3 (81)
+                                    <br>----
+                                    <br> ABC AUTO SHIPPING
+                                </td>
+                                <td class="vin">
+                                    3N1AB7AP7EY321262
+                                </td>
+                                <td class="unit.make">NISSAN</td>
+                                <td class="unit.model">SENTRA</td>
+                                <td class="date_creation">23
+                                    <br>25.MAR
+                                </td>
+                                <td class="status">
+                                    En Terminal
+                                    <br>PV (-)
+                                </td>
+                                <td class="type">DR-IN</td>
+                                <td class="mobility">
+                                    SELF
+                                </td>
+                                <td class="custom_validation">
+                                    <a href="/customer/dock_receipt/customs_validation/98242/" onclick="return showAddAnotherPopup2(this,500,700);"><img src="assets/img/sgt/bt_estat_semafor_vermell.png" title="Sin número de guía"></a>
+                                </td>
+                                <td class="photo">
+                                    <div dr_id="98242" name="dr_photo"><img src="assets/img/sgt/thumbnail_dr.jpg" alt="thumbnail"></div>
+                                </td>
+                                <td class="inspection"><img title="Sin inspección de entrada" src="assets/img/sgt/bt_estat_semafor_vermell.png"></td>
+                                <td class="options">
+                                    <a title="Información check in" href="/customer/dock_receipt/check_in/info/98242/" onclick="return showAddAnotherPopup2(this,800,800);"><img title="Información check in" src="assets/img/sgt/bt_recepcio.png" alt="Información check in"></a>
+                                    <a title="Información Dock Receipt" onclick="return showAddAnotherPopup2(this,700,700);" href="/customer/dock_receipt/historic/98242/"><img src="assets/img/sgt/bt_informacio.png" alt="Información Dock Receipt"></a>
+                                    <a title="Gestión de documentos" href="/customer/dock_receipt/document/add/98242/" onclick="return showAddAnotherPopup2(this,800,800);"><img title="Gestión de documentos" src="assets/img/sgt/bt_document.png" alt="Gestión de documentos"></a>
+                                    <a class="new_tooltip" title="N/R"><img src="assets/img/sgt/bt_avis.png" alt=""></a>
+                                </td>
+                            </tr>
+                            <tr class="odd" style="background-color:#F3E2A9;">
+                                <td class="receipt_number"><a href="/customer/inventory/dock_receipt/detail/97936/" title="CONCESIONARIO: ABC AUTO SHIPPING
+                                                                CONSIGNATARIO MASTER: -
+                                                                CONSIGNATARIO FINAL: -">142838</a></td>
+                                <td class="booking_customer">
+                                    PA011013-4 (81)
+                                    <br>----
+                                    <br> ABC AUTO SHIPPING
+                                </td>
+                                <td class="vin">
+                                    5NPDH4AE2FH589477
+                                </td>
+                                <td class="unit.make">HYUNDAI</td>
+                                <td class="unit.model">ELANTRA</td>
+                                <td class="date_creation">28
+                                    <br>20.MAR
+                                </td>
+                                <td class="status"><a title="Ver en mapa" class="location_map_opener" href="#position_map" data-remote="/line/show_location_map/154155/" target="_blank">
+                                                                   En Terminal
+                                                                </a>
+                                    <br>PV (-)
+                                </td>
+                                <td class="type">DR-IN</td>
+                                <td class="mobility">
+                                    SELF
+                                </td>
+                                <td class="custom_validation">
+                                    <a href="/customer/dock_receipt/customs_validation/97936/" onclick="return showAddAnotherPopup2(this,500,700);"><img src="assets/img/sgt/bt_estat_semafor_vermell.png" title="Sin número de guía"></a>
+                                </td>
+                                <td class="photo">
+                                    <div dr_id="97936" name="dr_photo"><img src="assets/img/sgt/thumbnail_dr.jpg" alt="thumbnail"></div>
+                                </td>
+                                <td class="inspection"><img title="Sin inspección de entrada" src="assets/img/sgt/bt_estat_semafor_vermell.png"></td>
+                                <td class="options">
+                                    <a title="Información check in" href="/customer/dock_receipt/check_in/info/97936/" onclick="return showAddAnotherPopup2(this,800,800);"><img title="Información check in" src="assets/img/sgt/bt_recepcio.png" alt="Información check in"></a>
+                                    <a title="Información Dock Receipt" onclick="return showAddAnotherPopup2(this,700,700);" href="/customer/dock_receipt/historic/97936/"><img src="assets/img/sgt/bt_informacio.png" alt="Información Dock Receipt"></a>
+                                    <a title="Gestión de documentos" href="/customer/dock_receipt/document/add/97936/" onclick="return showAddAnotherPopup2(this,800,800);"><img title="Gestión de documentos" src="assets/img/sgt/bt_document.png" alt="Gestión de documentos"></a>
+                                    <a class="new_tooltip" title="N/R"><img src="assets/img/sgt/bt_avis.png" alt=""></a>
+                                </td>
+                            </tr>
+                            <tr class="even" style="background-color:#F3E2A9;">
+                                <td class="receipt_number"><a href="/customer/inventory/dock_receipt/detail/97901/" title="CONCESIONARIO: ABC AUTO SHIPPING
+                                                                CONSIGNATARIO MASTER: -
+                                                                CONSIGNATARIO FINAL: -">142803</a></td>
+                                <td class="booking_customer">
+                                    PA011013-4 (81)
+                                    <br>----
+                                    <br> ABC AUTO SHIPPING
+                                </td>
+                                <td class="vin">
+                                    3HGGK5H85FM703097
+                                </td>
+                                <td class="unit.make">HONDA</td>
+                                <td class="unit.model">FIT</td>
+                                <td class="date_creation">29
+                                    <br>19.MAR
+                                </td>
+                                <td class="status"><a title="Ver en mapa" class="location_map_opener" href="#position_map" data-remote="/line/show_location_map/153926/" target="_blank">
+                                                                   En Terminal
+                                                                </a>
+                                    <br>PV (-)
+                                </td>
+                                <td class="type">DR-IN</td>
+                                <td class="mobility">
+                                    SELF
+                                </td>
+                                <td class="custom_validation">
+                                    <a href="/customer/dock_receipt/customs_validation/97901/" onclick="return showAddAnotherPopup2(this,500,700);"><img src="assets/img/sgt/bt_estat_semafor_vermell.png" title="Sin número de guía"></a>
+                                </td>
+                                <td class="photo">
+                                    <div dr_id="97901" name="dr_photo"><img src="assets/img/sgt/thumbnail_dr.jpg" alt="thumbnail"></div>
+                                </td>
+                                <td class="inspection"><img title="Sin inspección de entrada" src="assets/img/sgt/bt_estat_semafor_vermell.png"></td>
+                                <td class="options">
+                                    <a title="Información check in" href="/customer/dock_receipt/check_in/info/97901/" onclick="return showAddAnotherPopup2(this,800,800);"><img title="Información check in" src="assets/img/sgt/bt_recepcio.png" alt="Información check in"></a>
+                                    <a title="Información Dock Receipt" onclick="return showAddAnotherPopup2(this,700,700);" href="/customer/dock_receipt/historic/97901/"><img src="assets/img/sgt/bt_informacio.png" alt="Información Dock Receipt"></a>
+                                    <a title="Gestión de documentos" href="/customer/dock_receipt/document/add/97901/" onclick="return showAddAnotherPopup2(this,800,800);"><img title="Gestión de documentos" src="assets/img/sgt/bt_document.png" alt="Gestión de documentos"></a>
+                                    <a class="new_tooltip" title="N/R"><img src="assets/img/sgt/bt_avis.png" alt=""></a>
+                                </td>
+                            </tr>
+                            <tr class="odd" style="background-color:#F3E2A9;">
+                                <td class="receipt_number"><a href="/customer/inventory/dock_receipt/detail/97719/" title="CONCESIONARIO: ABC AUTO SHIPPING
+                                                                CONSIGNATARIO MASTER: J &amp; A ENTERPRISES, LLC
+                                                                CONSIGNATARIO FINAL: J &amp; A ENTERPRISES, LLC">142621</a></td>
+                                <td class="booking_customer">
+                                    PA011013-1 (81)
+                                    <br>----
+                                    <br> ABC AUTO SHIPPING
+                                </td>
+                                <td class="vin">
+                                    KNDMB5C1XF6042873
+                                    <br> HOEGM681PESD0017
+                                </td>
+                                <td class="unit.make">KIA</td>
+                                <td class="unit.model">SEDONA</td>
+                                <td class="date_creation">31
+                                    <br>17.MAR
+                                </td>
+                                <td class="status">
+                                    En Terminal
+                                    <br>PV (-)
+                                </td>
+                                <td class="type">DR-IN</td>
+                                <td class="mobility">
+                                    SELF
+                                </td>
+                                <td class="custom_validation">
+                                    <a href="/customer/dock_receipt/customs_validation/97719/" onclick="return showAddAnotherPopup2(this,500,700);"><img src="assets/img/sgt/bt_estat_semafor_verd.png" title="Custom validation hecha"></a>
+                                </td>
+                                <td class="photo">
+                                    <div dr_id="97719" name="dr_photo"><img src="assets/img/sgt/thumbnail_dr.jpg" alt="thumbnail"></div>
+                                </td>
+                                <td class="inspection"><img title="Sin inspección de entrada" src="assets/img/sgt/bt_estat_semafor_vermell.png"></td>
+                                <td class="options">
+                                    <a title="Información check in" href="/customer/dock_receipt/check_in/info/97719/" onclick="return showAddAnotherPopup2(this,800,800);"><img title="Información check in" src="assets/img/sgt/bt_recepcio.png" alt="Información check in"></a>
+                                    <a title="Información Dock Receipt" onclick="return showAddAnotherPopup2(this,700,700);" href="/customer/dock_receipt/historic/97719/"><img src="assets/img/sgt/bt_informacio.png" alt="Información Dock Receipt"></a>
+                                    <a title="Gestión de documentos" href="/customer/dock_receipt/document/add/97719/" onclick="return showAddAnotherPopup2(this,800,800);"><img title="Gestión de documentos" src="assets/img/sgt/bt_document.png" alt="Gestión de documentos"></a>
+                                    <a class="new_tooltip" title="N/R"><img src="assets/img/sgt/bt_avis.png" alt=""></a>
+                                </td>
+                            </tr>
+                            <tr class="even" style="background-color:#F3E2A9;">
+                                <td class="receipt_number"><a href="/customer/inventory/dock_receipt/detail/97579/" title="CONCESIONARIO: ABC AUTO SHIPPING
+                                                                CONSIGNATARIO MASTER: -
+                                                                CONSIGNATARIO FINAL: -">142481</a></td>
+                                <td class="booking_customer">
+                                    PA011013-5 (81)
+                                    <br>----
+                                    <br> ABC AUTO SHIPPING
+                                </td>
+                                <td class="vin">
+                                    1FMCU0GX2EUB45511
+                                </td>
+                                <td class="unit.make">FORD</td>
+                                <td class="unit.model">ESCAPE</td>
+                                <td class="date_creation">32
+                                    <br>16.MAR
+                                </td>
+                                <td class="status">
+                                    En Terminal
+                                    <br>PV (-)
+                                </td>
+                                <td class="type">DR-IN</td>
+                                <td class="mobility">
+                                    SELF
+                                </td>
+                                <td class="custom_validation">
+                                    <a href="/customer/dock_receipt/customs_validation/97579/" onclick="return showAddAnotherPopup2(this,500,700);"><img src="assets/img/sgt/bt_estat_semafor_vermell.png" title="Sin número de guía"></a>
+                                </td>
+                                <td class="photo">
+                                    <div dr_id="97579" name="dr_photo"><img src="assets/img/sgt/thumbnail_dr.jpg" alt="thumbnail"></div>
+                                </td>
+                                <td class="inspection"><img title="Sin inspección de entrada" src="assets/img/sgt/bt_estat_semafor_vermell.png"></td>
+                                <td class="options">
+                                    <a title="Información check in" href="/customer/dock_receipt/check_in/info/97579/" onclick="return showAddAnotherPopup2(this,800,800);"><img title="Información check in" src="assets/img/sgt/bt_recepcio.png" alt="Información check in"></a>
+                                    <a title="Información Dock Receipt" onclick="return showAddAnotherPopup2(this,700,700);" href="/customer/dock_receipt/historic/97579/"><img src="assets/img/sgt/bt_informacio.png" alt="Información Dock Receipt"></a>
+                                    <a title="Gestión de documentos" href="/customer/dock_receipt/document/add/97579/" onclick="return showAddAnotherPopup2(this,800,800);"><img title="Gestión de documentos" src="assets/img/sgt/bt_document.png" alt="Gestión de documentos"></a>
+                                </td>
+                            </tr>
+                            <tr class="odd" style="background-color:#F3E2A9;">
+                                <td class="receipt_number"><a href="/customer/inventory/dock_receipt/detail/97336/" title="CONCESIONARIO: ABC AUTO SHIPPING
+                                                                CONSIGNATARIO MASTER: -
+                                                                CONSIGNATARIO FINAL: -">141988</a>
+                                    <br><img src="assets/img/sgt/bt_enviado.png" title="Dock receipt sent (1 times)"></td>
+                                <td class="booking_customer">
+                                    PA011013-5 (81)
+                                    <br>----
+                                    <br> ABC AUTO SHIPPING
+                                </td>
+                                <td class="vin">
+                                    2C4RC1BG0ER159404
+                                </td>
+                                <td class="unit.make">CHRYSLER</td>
+                                <td class="unit.model">TOWN &amp; COUNTRY</td>
+                                <td class="date_creation">36
+                                    <br>12.MAR
+                                </td>
+                                <td class="status"><a title="Ver en mapa" class="location_map_opener" href="#position_map" data-remote="/line/show_location_map/151823/" target="_blank">
+                                                                   En Terminal
+                                                                </a>
+                                    <br>PV (-)
+                                </td>
+                                <td class="type">DR-IN</td>
+                                <td class="mobility">
+                                    SELF
+                                </td>
+                                <td class="custom_validation">
+                                    <a href="/customer/dock_receipt/customs_validation/97336/" onclick="return showAddAnotherPopup2(this,500,700);"><img src="assets/img/sgt/bt_estat_semafor_vermell.png" title="Sin número de guía"></a>
+                                </td>
+                                <td class="photo">
+                                    <div dr_id="97336" name="dr_photo"><img src="assets/img/sgt/thumbnail_dr.jpg" alt="thumbnail"></div>
+                                </td>
+                                <td class="inspection"><img title="Sin inspección de entrada" src="assets/img/sgt/bt_estat_semafor_vermell.png"></td>
+                                <td class="options">
+                                    <a title="Información check in" href="/customer/dock_receipt/check_in/info/97336/" onclick="return showAddAnotherPopup2(this,800,800);"><img title="Información check in" src="assets/img/sgt/bt_recepcio.png" alt="Información check in"></a>
+                                    <a title="Información Dock Receipt" onclick="return showAddAnotherPopup2(this,700,700);" href="/customer/dock_receipt/historic/97336/"><img src="assets/img/sgt/bt_informacio.png" alt="Información Dock Receipt"></a>
+                                    <a title="Gestión de documentos" href="/customer/dock_receipt/document/add/97336/" onclick="return showAddAnotherPopup2(this,800,800);"><img title="Gestión de documentos" src="assets/img/sgt/bt_document.png" alt="Gestión de documentos"></a>
+                                </td>
+                            </tr>
+                            <tr class="even" style="background-color:#F3E2A9;">
+                                <td class="receipt_number"><a href="/customer/inventory/dock_receipt/detail/97301/" title="CONCESIONARIO: ABC AUTO SHIPPING
+                                                                CONSIGNATARIO MASTER: -
+                                                                CONSIGNATARIO FINAL: -">141953</a></td>
+                                <td class="booking_customer">
+                                    PA011013-6 (81)
+                                    <br>----
+                                    <br> ABC AUTO SHIPPING
+                                </td>
+                                <td class="vin">
+                                    KNADM5A31E6350329
+                                </td>
+                                <td class="unit.make">KIA</td>
+                                <td class="unit.model">RIO</td>
+                                <td class="date_creation">37
+                                    <br>11.MAR
+                                </td>
+                                <td class="status"><a title="Ver en mapa" class="location_map_opener" href="#position_map" data-remote="/line/show_location_map/150952/" target="_blank">
+                                                                   En Terminal
+                                                                </a>
+                                    <br>PV (-)
+                                </td>
+                                <td class="type">DR-IN</td>
+                                <td class="mobility">
+                                    SELF
+                                </td>
+                                <td class="custom_validation">
+                                    <a href="/customer/dock_receipt/customs_validation/97301/" onclick="return showAddAnotherPopup2(this,500,700);"><img src="assets/img/sgt/bt_estat_semafor_vermell.png" title="Sin número de guía"></a>
+                                </td>
+                                <td class="photo">
+                                    <div dr_id="97301" name="dr_photo"><img src="assets/img/sgt/thumbnail_dr.jpg" alt="thumbnail"></div>
+                                </td>
+                                <td class="inspection"><img title="Sin inspección de entrada" src="assets/img/sgt/bt_estat_semafor_vermell.png"></td>
+                                <td class="options">
+                                    <a title="Información check in" href="/customer/dock_receipt/check_in/info/97301/" onclick="return showAddAnotherPopup2(this,800,800);"><img title="Información check in" src="assets/img/sgt/bt_recepcio.png" alt="Información check in"></a>
+                                    <a title="Información Dock Receipt" onclick="return showAddAnotherPopup2(this,700,700);" href="/customer/dock_receipt/historic/97301/"><img src="assets/img/sgt/bt_informacio.png" alt="Información Dock Receipt"></a>
+                                    <a title="Gestión de documentos" href="/customer/dock_receipt/document/add/97301/" onclick="return showAddAnotherPopup2(this,800,800);"><img title="Gestión de documentos" src="assets/img/sgt/bt_document.png" alt="Gestión de documentos"></a>
+                                    <a class="new_tooltip" title="JUMP/S"><img src="assets/img/sgt/bt_avis.png" alt=""></a>
+                                </td>
+                            </tr>
+                            <tr class="odd" style="background-color:#F3E2A9;">
+                                <td class="receipt_number"><a href="/customer/inventory/dock_receipt/detail/97297/" title="CONCESIONARIO: ABC AUTO SHIPPING
+                                                                CONSIGNATARIO MASTER: -
+                                                                CONSIGNATARIO FINAL: -">141949</a></td>
+                                <td class="booking_customer">
+                                    PA011013-4 (81)
+                                    <br>----
+                                    <br> ABC AUTO SHIPPING
+                                </td>
+                                <td class="vin">
+                                    5N1AT2MT3EC752675
+                                </td>
+                                <td class="unit.make">NISSAN</td>
+                                <td class="unit.model">ROGUE</td>
+                                <td class="date_creation">37
+                                    <br>11.MAR
+                                </td>
+                                <td class="status"><a title="Ver en mapa" class="location_map_opener" href="#position_map" data-remote="/line/show_location_map/150936/" target="_blank">
+                                                                   En Terminal
+                                                                </a>
+                                    <br>PV (-)
+                                </td>
+                                <td class="type">DR-IN</td>
+                                <td class="mobility">
+                                    SELF
+                                </td>
+                                <td class="custom_validation">
+                                    <a href="/customer/dock_receipt/customs_validation/97297/" onclick="return showAddAnotherPopup2(this,500,700);"><img src="assets/img/sgt/bt_estat_semafor_vermell.png" title="Sin número de guía"></a>
+                                </td>
+                                <td class="photo">
+                                    <div dr_id="97297" name="dr_photo"><img src="assets/img/sgt/thumbnail_dr.jpg" alt="thumbnail"></div>
+                                </td>
+                                <td class="inspection"><img title="Sin inspección de entrada" src="assets/img/sgt/bt_estat_semafor_vermell.png"></td>
+                                <td class="options">
+                                    <a title="Información check in" href="/customer/dock_receipt/check_in/info/97297/" onclick="return showAddAnotherPopup2(this,800,800);"><img title="Información check in" src="assets/img/sgt/bt_recepcio.png" alt="Información check in"></a>
+                                    <a title="Información Dock Receipt" onclick="return showAddAnotherPopup2(this,700,700);" href="/customer/dock_receipt/historic/97297/"><img src="assets/img/sgt/bt_informacio.png" alt="Información Dock Receipt"></a>
+                                    <a title="Gestión de documentos" href="/customer/dock_receipt/document/add/97297/" onclick="return showAddAnotherPopup2(this,800,800);"><img title="Gestión de documentos" src="assets/img/sgt/bt_document.png" alt="Gestión de documentos"></a>
+                                    <a class="new_tooltip" title="N/R"><img src="assets/img/sgt/bt_avis.png" alt=""></a>
+                                </td>
+                            </tr>
+                            <tr class="even" style="background-color:#F3E2A9;">
+                                <td class="receipt_number"><a href="/customer/inventory/dock_receipt/detail/97152/" title="CONCESIONARIO: ABC AUTO SHIPPING
+                                                                CONSIGNATARIO MASTER: -
+                                                                CONSIGNATARIO FINAL: -">140302</a></td>
+                                <td class="booking_customer">
+                                    PA010488-3 (81)
+                                    <br>----
+                                    <br> ABC AUTO SHIPPING
+                                </td>
+                                <td class="vin">
+                                    3VW4T7AU5FM006219
+                                </td>
+                                <td class="unit.make">VOLKSWAGEN</td>
+                                <td class="unit.model">GTI</td>
+                                <td class="date_creation">42
+                                    <br>06.MAR
+                                </td>
+                                <td class="status"><a title="Ver en mapa" class="location_map_opener" href="#position_map" data-remote="/line/show_location_map/149182/" target="_blank">
+                                                                   En Terminal
+                                                                </a>
+                                    <br>PV (-)
+                                </td>
+                                <td class="type">DR-IN</td>
+                                <td class="mobility">
+                                    SELF
+                                </td>
+                                <td class="custom_validation">
+                                    <a href="/customer/dock_receipt/customs_validation/97152/" onclick="return showAddAnotherPopup2(this,500,700);"><img src="assets/img/sgt/bt_estat_semafor_vermell.png" title="Sin número de guía"></a>
+                                </td>
+                                <td class="photo">
+                                    <div dr_id="97152" name="dr_photo"><img src="assets/img/sgt/thumbnail_dr.jpg" alt="thumbnail"></div>
+                                </td>
+                                <td class="inspection"><img title="Sin inspección de entrada" src="assets/img/sgt/bt_estat_semafor_vermell.png"></td>
+                                <td class="options">
+                                    <a title="Información check in" href="/customer/dock_receipt/check_in/info/97152/" onclick="return showAddAnotherPopup2(this,800,800);"><img title="Información check in" src="assets/img/sgt/bt_recepcio.png" alt="Información check in"></a>
+                                    <a title="Información Dock Receipt" onclick="return showAddAnotherPopup2(this,700,700);" href="/customer/dock_receipt/historic/97152/"><img src="assets/img/sgt/bt_informacio.png" alt="Información Dock Receipt"></a>
+                                    <a title="Gestión de documentos" href="/customer/dock_receipt/document/add/97152/" onclick="return showAddAnotherPopup2(this,800,800);"><img title="Gestión de documentos" src="assets/img/sgt/bt_document.png" alt="Gestión de documentos"></a>
+                                    <a class="new_tooltip" title="N/R"><img src="assets/img/sgt/bt_avis.png" alt=""></a>
+                                </td>
+                            </tr>
+                            <tr class="odd" style="background-color:#F3E2A9;">
+                                <td class="receipt_number"><a href="/customer/inventory/dock_receipt/detail/96888/" title="CONCESIONARIO: ABC AUTO SHIPPING
+                                                                CONSIGNATARIO MASTER: -
+                                                                CONSIGNATARIO FINAL: -">140038</a></td>
+                                <td class="booking_customer">
+                                    PA010488-4 (81)
+                                    <br>----
+                                    <br> ABC AUTO SHIPPING
+                                </td>
+                                <td class="vin">
+                                    1FDWE3FLXEDA23473
+                                </td>
+                                <td class="unit.make">FORD</td>
+                                <td class="unit.model">ECONOLINE</td>
+                                <td class="date_creation">43
+                                    <br>05.MAR
+                                </td>
+                                <td class="status"><a title="Ver en mapa" class="location_map_opener" href="#position_map" data-remote="/line/show_location_map/148676/" target="_blank">
+                                                                   En Terminal
+                                                                </a>
+                                    <br>PV (-)
+                                </td>
+                                <td class="type">DR-IN</td>
+                                <td class="mobility">
+                                    SELF
+                                </td>
+                                <td class="custom_validation">
+                                    <a href="/customer/dock_receipt/customs_validation/96888/" onclick="return showAddAnotherPopup2(this,500,700);"><img src="assets/img/sgt/bt_estat_semafor_vermell.png" title="Sin número de guía"></a>
+                                </td>
+                                <td class="photo">
+                                    <div dr_id="96888" name="dr_photo"><img src="assets/img/sgt/thumbnail_dr.jpg" alt="thumbnail"></div>
+                                </td>
+                                <td class="inspection"><img title="Sin inspección de entrada" src="assets/img/sgt/bt_estat_semafor_vermell.png"></td>
+                                <td class="options">
+                                    <a title="Información check in" href="/customer/dock_receipt/check_in/info/96888/" onclick="return showAddAnotherPopup2(this,800,800);"><img title="Información check in" src="assets/img/sgt/bt_recepcio.png" alt="Información check in"></a>
+                                    <a title="Información Dock Receipt" onclick="return showAddAnotherPopup2(this,700,700);" href="/customer/dock_receipt/historic/96888/"><img src="assets/img/sgt/bt_informacio.png" alt="Información Dock Receipt"></a>
+                                    <a title="Gestión de documentos" href="/customer/dock_receipt/document/add/96888/" onclick="return showAddAnotherPopup2(this,800,800);"><img title="Gestión de documentos" src="assets/img/sgt/bt_document.png" alt="Gestión de documentos"></a>
+                                </td>
+                            </tr>
+                            <tr class="even" style="background-color:#F3E2A9;">
+                                <td class="receipt_number"><a href="/customer/inventory/dock_receipt/detail/95343/" title="CONCESIONARIO: ABC AUTO SHIPPING
+                                                                CONSIGNATARIO MASTER: J &amp; A ENTERPRISES, LLC
+                                                                CONSIGNATARIO FINAL: J &amp; A ENTERPRISES, LLC">138493</a></td>
+                                <td class="booking_customer">
+                                    PA010488-1 (81)
+                                    <br>----
+                                    <br> ABC AUTO SHIPPING
+                                </td>
+                                <td class="vin">
+                                    KMHTC6AD0FU242423
+                                    <br> HOEGM681PESD0025
+                                </td>
+                                <td class="unit.make">HYUNDAI</td>
+                                <td class="unit.model">VELOSTER</td>
+                                <td class="date_creation">45
+                                    <br>03.MAR
+                                </td>
+                                <td class="status"><a title="Ver en mapa" class="location_map_opener" href="#position_map" data-remote="/line/show_location_map/148516/" target="_blank">
+                                                                   En Terminal
+                                                                </a>
+                                    <br>PV (-)
+                                </td>
+                                <td class="type">DR-IN</td>
+                                <td class="mobility">
+                                    SELF
+                                </td>
+                                <td class="custom_validation">
+                                    <a href="/customer/dock_receipt/customs_validation/95343/" onclick="return showAddAnotherPopup2(this,500,700);"><img src="assets/img/sgt/bt_estat_semafor_vermell.png" title="Sin número de guía"></a>
+                                </td>
+                                <td class="photo">
+                                    <div dr_id="95343" name="dr_photo"><img src="assets/img/sgt/thumbnail_dr.jpg" alt="thumbnail"></div>
+                                </td>
+                                <td class="inspection"><img title="Sin inspección de entrada" src="assets/img/sgt/bt_estat_semafor_vermell.png"></td>
+                                <td class="options">
+                                    <a title="Información check in" href="/customer/dock_receipt/check_in/info/95343/" onclick="return showAddAnotherPopup2(this,800,800);"><img title="Información check in" src="assets/img/sgt/bt_recepcio.png" alt="Información check in"></a>
+                                    <a title="Información Dock Receipt" onclick="return showAddAnotherPopup2(this,700,700);" href="/customer/dock_receipt/historic/95343/"><img src="assets/img/sgt/bt_informacio.png" alt="Información Dock Receipt"></a>
+                                    <a title="Gestión de documentos" href="/customer/dock_receipt/document/add/95343/" onclick="return showAddAnotherPopup2(this,800,800);"><img title="Gestión de documentos" src="assets/img/sgt/bt_document.png" alt="Gestión de documentos"></a>
+                                    <a class="new_tooltip" title="N/R"><img src="assets/img/sgt/bt_avis.png" alt=""></a>
+                                </td>
+                            </tr>
+                            <tr class="odd" style="background-color:#F3E2A9;">
+                                <td class="receipt_number"><a href="/customer/inventory/dock_receipt/detail/95130/" title="CONCESIONARIO: ABC AUTO SHIPPING
+                                                                CONSIGNATARIO MASTER: J &amp; A ENTERPRISES, LLC
+                                                                CONSIGNATARIO FINAL: J &amp; A ENTERPRISES, LLC">138280</a></td>
+                                <td class="booking_customer">
+                                    PA010488-1 (81)
+                                    <br>----
+                                    <br> ABC AUTO SHIPPING
+                                </td>
+                                <td class="vin">
+                                    1FM5K8AR5FGA66454
+                                    <br> HOEGM681PESD0016
+                                </td>
+                                <td class="unit.make">FORD</td>
+                                <td class="unit.model">EXPLORER</td>
+                                <td class="date_creation">46
+                                    <br>02.MAR
+                                </td>
+                                <td class="status"><a title="Ver en mapa" class="location_map_opener" href="#position_map" data-remote="/line/show_location_map/148291/" target="_blank">
+                                                                   En Terminal
+                                                                </a>
+                                    <br>PV (-)
+                                </td>
+                                <td class="type">DR-IN</td>
+                                <td class="mobility">
+                                    SELF
+                                </td>
+                                <td class="custom_validation">
+                                    <a href="/customer/dock_receipt/customs_validation/95130/" onclick="return showAddAnotherPopup2(this,500,700);"><img src="assets/img/sgt/bt_estat_semafor_verd.png" title="Custom validation hecha"></a>
+                                </td>
+                                <td class="photo">
+                                    <div dr_id="95130" name="dr_photo"><img src="assets/img/sgt/thumbnail_dr.jpg" alt="thumbnail"></div>
+                                </td>
+                                <td class="inspection"><img title="Sin inspección de entrada" src="assets/img/sgt/bt_estat_semafor_vermell.png"></td>
+                                <td class="options">
+                                    <a title="Información check in" href="/customer/dock_receipt/check_in/info/95130/" onclick="return showAddAnotherPopup2(this,800,800);"><img title="Información check in" src="assets/img/sgt/bt_recepcio.png" alt="Información check in"></a>
+                                    <a title="Información Dock Receipt" onclick="return showAddAnotherPopup2(this,700,700);" href="/customer/dock_receipt/historic/95130/"><img src="assets/img/sgt/bt_informacio.png" alt="Información Dock Receipt"></a>
+                                    <a title="Gestión de documentos" href="/customer/dock_receipt/document/add/95130/" onclick="return showAddAnotherPopup2(this,800,800);"><img title="Gestión de documentos" src="assets/img/sgt/bt_document.png" alt="Gestión de documentos"></a>
+                                    <a class="new_tooltip" title="N/R"><img src="assets/img/sgt/bt_avis.png" alt=""></a>
+                                </td>
+                            </tr>
+                        </tbody>
+                        <tfoot></tfoot>
+                    </table>
+
+                      <ul class="pagination">
+                        <li class="page-item"><a class="page-link" href="#">Prev</a></li>
+                        <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                        <li class="page-item"><a class="page-link" href="#">2</a></li>
+                        <li class="page-item"><a class="page-link" href="#">3</a></li>
+                        <li class="page-item"><a class="page-link" href="#">4</a></li>
+                        <li class="page-item"><a class="page-link" href="#">Next</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3">
+                  <div class="card">
+                    <div class="card-header"><strong>Basic Form</strong> Elements</div>
+                    <div class="card-body">
+                      <form class="form-horizontal" action="" method="post" enctype="multipart/form-data">
+                        <div class="form-group">
+                          <label for="formGroupExampleInput">Example label</label>
+                          <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Example input">
+                        </div>
+                        <div class="form-group">
+                          <label class="col-form-label">Statico</label>
+                          <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Example input">
+                        </div>
+                        <div class="form-group">
+                          <label for="text-input">Text Input</label>
+                          <input class="form-control" id="text-input" type="text" name="text-input" placeholder="Text"><span class="help-block">This is a help text</span>
+                        </div>
+                        <div class="form-group row">
+                          <label for="email-input">Email Input</label>
+                          <input class="form-control" id="email-input" type="email" name="email-input" placeholder="Enter Email" autocomplete="email"><span class="help-block">Please enter your email</span>
+                        </div>
+                        <div class="form-group row">
+                           <label for="password-input">Password</label>
+                           <input class="form-control" id="password-input" type="password" name="password-input" placeholder="Password" autocomplete="new-password"><span class="help-block">Please enter a complex password</span>
+                        </div>
+                        <div class="form-group row">
+                          <label for="date-input">Date Input</label>
+                          <input class="form-control" id="date-input" type="date" name="date-input" placeholder="date"><span class="help-block">Please enter a valid date</span>
+                        </div>
+                        <div class="form-group row">
+                          <label for="disabled-input">Disabled Input</label>
+                          <input class="form-control" id="disabled-input" type="text" name="disabled-input" placeholder="Disabled" disabled="">
+                        </div>
+                        <div class="form-group row">
+                          <label for="textarea-input">Textarea</label>
+                          <textarea class="form-control" id="textarea-input" name="textarea-input" rows="9" placeholder="Content.."></textarea>
+                        </div>
+                        <div class="form-group row">
+                          <label for="select1">Select</label>
+                            <select class="form-control" id="select1" name="select1">
+                              <option value="0">Please select</option>
+                              <option value="1">Option #1</option>
+                              <option value="2">Option #2</option>
+                              <option value="3">Option #3</option>
+                            </select>
+
+                        </div>
+                        <div class="form-group row">
+                          <label for="select2">Select Large</label>
+
+                            <select class="form-control form-control-lg" id="select2" name="select2">
+                              <option value="0">Please select</option>
+                              <option value="1">Option #1</option>
+                              <option value="2">Option #2</option>
+                              <option value="3">Option #3</option>
+                            </select>
+
+                        </div>
+                        <div class="form-group row">
+                          <label for="select3">Select Small</label>
+
+                            <select class="form-control form-control-sm" id="select3" name="select3">
+                              <option value="0">Please select</option>
+                              <option value="1">Option #1</option>
+                              <option value="2">Option #2</option>
+                              <option value="3">Option #3</option>
+                            </select>
+
+                        </div>
+                        <div class="form-group row">
+                          <label for="disabledSelect">Disabled Select</label>
+
+                            <select class="form-control" id="disabledSelect" disabled="">
+                              <option value="0">Please select</option>
+                              <option value="1">Option #1</option>
+                              <option value="2">Option #2</option>
+                              <option value="3">Option #3</option>
+                            </select>
+
+                        </div>
+                        <div class="form-group row">
+                          <label for="multiple-select">Multiple select</label>
+
+                            <select class="form-control" id="multiple-select" name="multiple-select" size="5" multiple="">
+                              <option value="1">Option #1</option>
+                              <option value="2">Option #2</option>
+                              <option value="3">Option #3</option>
+                              <option value="4">Option #4</option>
+                              <option value="5">Option #5</option>
+                              <option value="6">Option #6</option>
+                              <option value="7">Option #7</option>
+                              <option value="8">Option #8</option>
+                              <option value="9">Option #9</option>
+                              <option value="10">Option #10</option>
+                            </select>
+
+                        </div>
+                        <div class="form-group row">
+                          <label class="col-md-3 col-form-label">Radios</label>
+
+                            <div class="form-check">
+                              <input class="form-check-input" id="radio1" type="radio" value="radio1" name="radios">
+                              <label class="form-check-label" for="radio1">Option 1</label>
+                            </div>
+                            <div class="form-check">
+                              <input class="form-check-input" id="radio2" type="radio" value="radio2" name="radios">
+                              <label class="form-check-label" for="radio2">Option 2</label>
+                            </div>
+                            <div class="form-check">
+                              <input class="form-check-input" id="radio3" type="radio" value="radio2" name="radios">
+                              <label class="form-check-label" for="radio3">Option 3</label>
+                            </div>
+
+                        </div>
+                        <div class="form-group row">
+                          <label class="col-md-3 col-form-label">Inline Radios</label>
+                          <div class="col-md-9 col-form-label">
+                            <div class="form-check form-check-inline mr-1">
+                              <input class="form-check-input" id="inline-radio1" type="radio" value="option1" name="inline-radios">
+                              <label class="form-check-label" for="inline-radio1">One</label>
+                            </div>
+                            <div class="form-check form-check-inline mr-1">
+                              <input class="form-check-input" id="inline-radio2" type="radio" value="option2" name="inline-radios">
+                              <label class="form-check-label" for="inline-radio2">Two</label>
+                            </div>
+                            <div class="form-check form-check-inline mr-1">
+                              <input class="form-check-input" id="inline-radio3" type="radio" value="option3" name="inline-radios">
+                              <label class="form-check-label" for="inline-radio3">Three</label>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="form-group row">
+                          <label class="col-md-3 col-form-label">Checkboxes</label>
+                          <div class="col-md-9 col-form-label">
+                            <div class="form-check checkbox">
+                              <input class="form-check-input" id="check1" type="checkbox" value="">
+                              <label class="form-check-label" for="check1">Option 1</label>
+                            </div>
+                            <div class="form-check checkbox">
+                              <input class="form-check-input" id="check2" type="checkbox" value="">
+                              <label class="form-check-label" for="check2">Option 2</label>
+                            </div>
+                            <div class="form-check checkbox">
+                              <input class="form-check-input" id="check3" type="checkbox" value="">
+                              <label class="form-check-label" for="check3">Option 3</label>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="form-group row">
+                          <label class="col-md-3 col-form-label">Inline Checkboxes</label>
+                          <div class="col-md-9 col-form-label">
+                            <div class="form-check form-check-inline mr-1">
+                              <input class="form-check-input" id="inline-checkbox1" type="checkbox" value="check1">
+                              <label class="form-check-label" for="inline-checkbox1">One</label>
+                            </div>
+                            <div class="form-check form-check-inline mr-1">
+                              <input class="form-check-input" id="inline-checkbox2" type="checkbox" value="check2">
+                              <label class="form-check-label" for="inline-checkbox2">Two</label>
+                            </div>
+                            <div class="form-check form-check-inline mr-1">
+                              <input class="form-check-input" id="inline-checkbox3" type="checkbox" value="check3">
+                              <label class="form-check-label" for="inline-checkbox3">Three</label>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="form-group row">
+                          <label for="file-input">File input</label>
+                          <div class="col-md-9">
+                            <input id="file-input" type="file" name="file-input">
+                          </div>
+                        </div>
+                        <div class="form-group row">
+                          <label for="file-multiple-input">Multiple File input</label>
+                          <div class="col-md-9">
+                            <input id="file-multiple-input" type="file" name="file-multiple-input" multiple="">
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+                    <div class="card-footer">
+                      <button class="btn btn-sm btn-primary" type="submit"> Submit</button>
+                      <button class="btn btn-sm btn-danger" type="reset"> Reset</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </main>
+        <footer class="c-footer">
+          <div><a href="https://coreui.io">CoreUI</a> &copy; 2020 creativeLabs.</div>
+          <div class="ml-auto">Powered by&nbsp;<a href="https://coreui.io/">CoreUI</a></div>
+        </footer>
+      </div>
+    </div>
+    <!-- CoreUI and necessary plugins-->
+    <script src="node_modules/@coreui/coreui/dist/js/coreui.bundle.min.js"></script>
+    <!--[if IE]><!-->
+    <script src="node_modules/@coreui/icons/js/svgxuse.min.js"></script>
+    <!--<![endif]-->
+  </body>
+</html>

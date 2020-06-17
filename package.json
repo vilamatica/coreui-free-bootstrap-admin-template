@@ -64,6 +64,7 @@
     "pug-src": "node build/pug.js --src pug/ --dest src/ --injectSvg false",
     "release-version": "node build/change-version.js",
     "serve": "npm-run-all --sequential build localhost",
+    "dev": "npm-run-all --sequential build localhost watch-html-source",
     "svg": "node build/svg.js",
     "sync-assets": "sync-glob --watch 'src/assets/**/*' dist/assets",
     "test-dist": "browser-sync start --server \"./dist\"",
