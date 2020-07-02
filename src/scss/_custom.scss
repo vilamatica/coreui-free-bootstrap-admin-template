@@ -90,3 +90,53 @@ https://mdbootstrap.com/freebies/perfect-scrollbar/
 }
 
 */
+
+
+.btn-primary {
+  line-height: 11px;
+  max-height: 25px;
+  padding-top: 2px;
+  padding-bottom: 5px;
+}
+
+.xbreadcrumb {
+  display: flex;
+  flex-wrap: wrap;
+  list-style:none;
+  border-radius: 0;
+  background-color: transparent;
+}
+
+.xbreadcrumb .xbreadcrumb-item {
+  display: flex;
+  display: -ms-flexbox;
+  margin-left: 5px;
+}
+
+.errorlist {
+  position: relative;
+  padding: 0.75rem 1.25rem;
+  margin-bottom: 1rem;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+
+  color: #772b35;
+  background-color: #fadddd;
+  border-color: #f8cfcf;
+}
+
+ul.pagination {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.c-submenu-active, .c-sidebar-nav-item.c-sidebar-nav-dropdown.c-show {
+  // font-weight: bold;
+  color: $gray-100 !important;
+  background-color:$gray-900 !important;
+}
+
+.c-submenu-active.c-active {
+  color: $gray-base !important;
+  background-color:$primary-100 !important;
+}

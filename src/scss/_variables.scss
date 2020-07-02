@@ -1,9 +1,20 @@
 // Variable overrides
 
-
-// npm run dev
 $primary: #007DA3;
-/*
+
+
+$gray-base:  #3c4b64 !default;
+$gray-100:   #ebedef !default;
+$gray-200:   #d8dbe0 !default;
+$gray-300:   #c4c9d0 !default;
+$gray-400:   #b1b7c1 !default;
+$gray-500:   #9da5b1 !default;
+$gray-600:   #8a93a2 !default;
+$gray-700:   #768192 !default;
+$gray-800:   #636f83 !default;
+$gray-900:   #4f5d73 !default;
+
+
 $secondary: #002438;
 
 // https://learnui.design/tools/data-color-picker.html#single
@@ -20,22 +31,18 @@ $primary-800:   #bae9ff;
 $primary-900:   #bae9ff;
 
 
-$gray-base: #002438;
-$gray-100: #1a394e;
-$gray-200: #314f65;
-$gray-300: #48667d;
-$gray-400: #5f7e95;
-$gray-500:#7897af;
-$gray-600:#90b0c9;
-$gray-700:#aacbe4;
-$gray-800: #c4e6ff;
-$gray-900: #c4e6ff;
-
-
-
-$theme-colors: (
-  "primary": $gray-100,
-  "secondary": $primary
-);
-
+/*
+$body-bg:     $gray-100 !default;
+$body-color:  $gray-900 !default;
 */
+
+$sidebar-dark-backdrop-bg:#bae9ff;
+// $sidebar-dark-color: #ff00ff;
+$sidebar-dark-bg: $secondary;
+$sidebar-dark-brand-bg: $secondary;
+// $sidebar-dark-header-bg: #0000ff;
+$sidebar-dark-nav-link-bg: $gray-base;
+$sidebar-dark-nav-link-active-bg: $primary-100;
+$sidebar-dark-nav-dropdown-indicator-hover: #f0f0f0;
+$sidebar-dark-nav-dropdown-bg: $gray-100;
+
